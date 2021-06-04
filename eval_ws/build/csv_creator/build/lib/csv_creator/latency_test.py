@@ -33,13 +33,13 @@ class LatencyTest(Node):
         self.publisher = self.create_publisher(
             Ping,
             '/microROS/ping',
-            QoSProfile(depth=3, reliability=QoSReliabilityPolicy.RELIABLE))
+            QoSProfile(depth=3, reliability=QoSReliabilityPolicy.BEST_EFFORT))
 
         self.subscription = self.create_subscription(
 			Ping,
 			'/microROS/pong',
 			self.pong_callback,
-			QoSProfile(depth=3, reliability=QoSReliabilityPolicy.RELIABLE))
+			QoSProfile(depth=3, reliability=QoSReliabilityPolicy.BEST_EFFORT))
 
         self.seq_num = 0
 
