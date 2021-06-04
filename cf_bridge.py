@@ -81,11 +81,11 @@ def main():
     logging.basicConfig(level=logging.INFO)
 
     # Open serial port
-    serialport = serial.Serial(serial_dev, baudrate=115200, timeout=0.000001)
+    serialport = serial.Serial(serial_dev, baudrate=115200, timeout=0.2)
 
     # Configure radio link
     cflib.crtp.radiodriver.set_retries_before_disconnect(-1)
-    cflib.crtp.radiodriver.set_retries(-1)
+    cflib.crtp.radiodriver.set_retries(1)
     cflib.crtp.init_drivers(enable_debug_driver=False)
     link_uri = "usb://0"
 

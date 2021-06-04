@@ -159,19 +159,19 @@ void appMain(void)
 	RCCHECK(rclc_node_init_default(&node, "pingpong_node", "", &support));
 
 	// Create a reliable ping publisher
-	RCCHECK(rclc_publisher_init_best_effort(&pong_publisher, &node,
+	RCCHECK(rclc_publisher_init_default(&pong_publisher, &node,
 		ROSIDL_GET_MSG_TYPE_SUPPORT(cf_messages, msg, Ping), "/microROS/pong"));
 
 	// Create a control ping publisher
-	RCCHECK(rclc_publisher_init_best_effort(&control_publisher, &node,
+	RCCHECK(rclc_publisher_init_default(&control_publisher, &node,
 		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, UInt8), "/microROS/control_pong"));
 
 	// Create a reliable ping subscriber
-	RCCHECK(rclc_subscription_init_best_effort(&ping_subscriber, &node,
+	RCCHECK(rclc_subscription_init_default(&ping_subscriber, &node,
 		ROSIDL_GET_MSG_TYPE_SUPPORT(cf_messages, msg, Ping), "/microROS/ping"));
 
 	// Create a reliable ping subscriber
-	RCCHECK(rclc_subscription_init_best_effort(&control_subscriber, &node,
+	RCCHECK(rclc_subscription_init_default(&control_subscriber, &node,
 		ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, UInt8), "/microROS/control_ping"));
 
 

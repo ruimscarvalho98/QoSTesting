@@ -1,0 +1,21 @@
+[0.241s] Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/src/csv_creator': PYTHONPATH=/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/csv_creator build --build-base /home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/build install --prefix /home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator --record /home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/install.log --single-version-externally-managed
+[0.420s] running egg_info
+[0.421s] writing ../../build/csv_creator/csv_creator.egg-info/PKG-INFO
+[0.421s] writing dependency_links to ../../build/csv_creator/csv_creator.egg-info/dependency_links.txt
+[0.421s] writing entry points to ../../build/csv_creator/csv_creator.egg-info/entry_points.txt
+[0.422s] writing requirements to ../../build/csv_creator/csv_creator.egg-info/requires.txt
+[0.422s] writing top-level names to ../../build/csv_creator/csv_creator.egg-info/top_level.txt
+[0.456s] reading manifest file '../../build/csv_creator/csv_creator.egg-info/SOURCES.txt'
+[0.457s] writing manifest file '../../build/csv_creator/csv_creator.egg-info/SOURCES.txt'
+[0.457s] running build
+[0.458s] running build_py
+[0.458s] running install
+[0.458s] running install_lib
+[0.459s] running install_data
+[0.460s] running install_egg_info
+[0.462s] removing '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/python3.8/site-packages/csv_creator-0.0.0-py3.8.egg-info' (and everything under it)
+[0.462s] Copying ../../build/csv_creator/csv_creator.egg-info to /home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/python3.8/site-packages/csv_creator-0.0.0-py3.8.egg-info
+[0.463s] running install_scripts
+[0.477s] Installing latency_test script to /home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/csv_creator
+[0.477s] writing list of installed files to '/home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/install.log'
+[0.506s] Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/src/csv_creator' returned '0': PYTHONPATH=/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/csv_creator build --build-base /home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/build install --prefix /home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator --record /home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/install.log --single-version-externally-managed

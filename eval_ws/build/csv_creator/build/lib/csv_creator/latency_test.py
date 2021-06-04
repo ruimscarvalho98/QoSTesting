@@ -12,13 +12,10 @@ import time
 import numpy as np
 import os
 
-#HEADER = f'rtt_reliable_50cm_gs_cf_{NO_OF_BYTES}B_{ID}'
-
-## ABANDONED
-class MinimalSubscriber(Node):
+class LatencyTest(Node):
 
     def __init__(self):
-        super().__init__('minimal_subscriber')
+        super().__init__('latency_test')
         self.declare_parameter('num_samples', 255)
         self.declare_parameter('num_bytes', 16)
         self.declare_parameter('frequency', 1)
@@ -36,13 +33,13 @@ class MinimalSubscriber(Node):
         self.publisher = self.create_publisher(
             Ping,
             '/microROS/ping',
-            QoSProfile(depth=3, reliability=QoSReliabilityPolicy.BEST_EFFORT))
+            QoSProfile(depth=3, reliability=QoSReliabilityPolicy.RELIABLE))
 
         self.subscription = self.create_subscription(
 			Ping,
 			'/microROS/pong',
 			self.pong_callback,
-			QoSProfile(depth=3, reliability=QoSReliabilityPolicy.BEST_EFFORT))
+			QoSProfile(depth=3, reliability=QoSReliabilityPolicy.RELIABLE))
 
         self.seq_num = 0
 
@@ -88,9 +85,9 @@ class MinimalSubscriber(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_subscriber = MinimalSubscriber()
+    latency_test = LatencyTest()
 
-    rclpy.spin(minimal_subscriber)
+    rclpy.spin(latency_test)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
