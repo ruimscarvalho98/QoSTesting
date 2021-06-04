@@ -81,7 +81,7 @@ def main():
     logging.basicConfig(level=logging.INFO)
 
     # Open serial port
-    serialport = serial.Serial(serial_dev, baudrate=115200, timeout=0.2)
+    serialport = serial.Serial(serial_dev, baudrate=115200, timeout=0.000002)
 
     # Configure radio link
     cflib.crtp.radiodriver.set_retries_before_disconnect(-1)
