@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cf_messages/srv/Stop.srv
+// generated code does not contain a copyright notice
+
+
+module cf_messages {
+  module srv {
+    struct Stop_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Stop_Response {
+      int8 ret;
+    };
+  };
+};

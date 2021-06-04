@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cf_messages/srv/Land.srv
+// generated code does not contain a copyright notice
+
+
+module cf_messages {
+  module srv {
+    struct Land_Request {
+      float height;
+
+      float duration;
+    };
+    struct Land_Response {
+      int8 ret;
+    };
+  };
+};

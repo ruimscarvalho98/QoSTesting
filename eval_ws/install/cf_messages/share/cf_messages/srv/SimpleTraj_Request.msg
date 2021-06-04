@@ -1,0 +1,3 @@
+Waypoint[]  traj
+float32[]   duration
+int8      len

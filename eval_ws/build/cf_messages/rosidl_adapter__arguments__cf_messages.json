@@ -1,0 +1,15 @@
+{
+  "package_name": "cf_messages",
+  "non_idl_tuples": [
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:msg/HLCMessage.msg",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:msg/AirQuality.msg",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:msg/WeatherData.msg",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:msg/Waypoint.msg",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:msg/Ping.msg",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:srv/SimpleTraj.srv",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:srv/TakeOff.srv",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:srv/Land.srv",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:srv/GoTo.srv",
+    "/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages:srv/Stop.srv"
+  ]
+}

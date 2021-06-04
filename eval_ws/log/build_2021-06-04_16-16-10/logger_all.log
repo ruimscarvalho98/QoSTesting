@@ -1,0 +1,230 @@
+[0.246s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.246s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8e35398b50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8e35398b50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e353a7100>)
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ruimsc98/tese/qos_tests/eval_ws'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cf_messages) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cf_messages' with type 'ros.ament_cmake' and name 'cf_messages'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_creator) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/csv_creator' with type 'ros.ament_python' and name 'csv_creator'
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'cf_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'cf_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages', 'merge_install': False, 'path': '/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'csv_creator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'csv_creator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator', 'merge_install': False, 'path': '/home/ruimsc98/tese/qos_tests/eval_ws/src/csv_creator', 'symlink_install': False, 'test_result_base': None}
+[0.284s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages'
+[0.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.294s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ruimsc98/tese/qos_tests/eval_ws/src/csv_creator' with build type 'ament_python'
+[0.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('csv_creator', 'ament_prefix_path')
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/hook/ament_prefix_path.ps1'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/hook/ament_prefix_path.dsv'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/hook/ament_prefix_path.sh'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator:/opt/ros/foxy /usr/bin/cmake --build /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages -- -j12 -l12
+[0.514s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ruimsc98/tese/qos_tests/eval_ws/src/csv_creator'
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.518s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/src/csv_creator': PYTHONPATH=/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/csv_creator build --build-base /home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/build install --prefix /home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator --record /home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/install.log --single-version-externally-managed
+[0.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator:/opt/ros/foxy /usr/bin/cmake --build /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages -- -j12 -l12
+[0.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/src/csv_creator' returned '0': PYTHONPATH=/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/csv_creator build --build-base /home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/build install --prefix /home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator --record /home/ruimsc98/tese/qos_tests/eval_ws/build/csv_creator/install.log --single-version-externally-managed
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator' for CMake module files
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator' for CMake config files
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/bin'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/pkgconfig/csv_creator.pc'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/lib/python3.8/site-packages'
+[0.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('csv_creator', 'pythonpath')
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/hook/pythonpath.ps1'
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/hook/pythonpath.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/hook/pythonpath.sh'
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(csv_creator)
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/package.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/package.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/package.sh'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/package.bash'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/csv_creator/package.zsh'
+[0.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator/share/colcon-core/packages/csv_creator)
+[0.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator:/opt/ros/foxy /usr/bin/cmake --install /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages
+[0.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cf_messages)
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages' for CMake module files
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages' for CMake config files
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ruimsc98/tese/qos_tests/eval_ws/install/csv_creator:/opt/ros/foxy /usr/bin/cmake --install /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages
+[0.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('cf_messages', 'cmake_prefix_path')
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/cmake_prefix_path.ps1'
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/cmake_prefix_path.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/cmake_prefix_path.sh'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib'
+[0.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('cf_messages', 'ld_library_path_lib')
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/ld_library_path_lib.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/ld_library_path_lib.dsv'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/ld_library_path_lib.sh'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/bin'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/pkgconfig/cf_messages.pc'
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages'
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('cf_messages', 'pythonpath')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/pythonpath.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/pythonpath.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/pythonpath.sh'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.sh'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.bash'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.zsh'
+[0.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/colcon-core/packages/cf_messages)
+[1.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cf_messages)
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages' for CMake module files
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages' for CMake config files
+[1.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('cf_messages', 'cmake_prefix_path')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/cmake_prefix_path.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/cmake_prefix_path.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/cmake_prefix_path.sh'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib'
+[1.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('cf_messages', 'ld_library_path_lib')
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/ld_library_path_lib.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/ld_library_path_lib.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/ld_library_path_lib.sh'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/bin'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/pkgconfig/cf_messages.pc'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages'
+[1.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('cf_messages', 'pythonpath')
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/pythonpath.ps1'
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/pythonpath.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/hook/pythonpath.sh'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.dsv'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.sh'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.bash'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.zsh'
+[1.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/colcon-core/packages/cf_messages)
+[1.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.150s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.161s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.187s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ruimsc98/tese/qos_tests/eval_ws/install/local_setup.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ruimsc98/tese/qos_tests/eval_ws/install/_local_setup_util_ps1.py'
+[1.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ruimsc98/tese/qos_tests/eval_ws/install/setup.ps1'
+[1.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ruimsc98/tese/qos_tests/eval_ws/install/local_setup.sh'
+[1.197s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ruimsc98/tese/qos_tests/eval_ws/install/_local_setup_util_sh.py'
+[1.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ruimsc98/tese/qos_tests/eval_ws/install/setup.sh'
+[1.201s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ruimsc98/tese/qos_tests/eval_ws/install/local_setup.bash'
+[1.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ruimsc98/tese/qos_tests/eval_ws/install/setup.bash'
+[1.203s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ruimsc98/tese/qos_tests/eval_ws/install/local_setup.zsh'
+[1.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ruimsc98/tese/qos_tests/eval_ws/install/setup.zsh'

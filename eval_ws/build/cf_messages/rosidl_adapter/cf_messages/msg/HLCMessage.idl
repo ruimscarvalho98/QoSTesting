@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cf_messages/msg/HLCMessage.msg
+// generated code does not contain a copyright notice
+
+
+module cf_messages {
+  module msg {
+    struct HLCMessage {
+      uint8 command;
+
+      uint8 group_mask;
+
+      float height;
+
+      float yaw;
+
+      boolean use_current_yaw;
+
+      float duration;
+    };
+  };
+};

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cf_messages/srv/SimpleTraj.srv
+// generated code does not contain a copyright notice
+
+#include "cf_messages/msg/Waypoint.idl"
+
+module cf_messages {
+  module srv {
+    struct SimpleTraj_Request {
+      sequence<cf_messages::msg::Waypoint> traj;
+
+      sequence<float> duration;
+
+      int8 len;
+    };
+    struct SimpleTraj_Response {
+      int8 ret;
+    };
+  };
+};

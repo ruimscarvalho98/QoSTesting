@@ -1,0 +1,6 @@
+Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages -DCMAKE_INSTALL_PREFIX=/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages
+Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages -DCMAKE_INSTALL_PREFIX=/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages
+Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages -- -j12 -l12
+Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages -- -j12 -l12
+Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages
+Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages

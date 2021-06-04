@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cf_messages/srv/TakeOff.srv
+// generated code does not contain a copyright notice
+
+
+module cf_messages {
+  module srv {
+    struct TakeOff_Request {
+      float height;
+
+      float duration;
+    };
+    struct TakeOff_Response {
+      int8 ret;
+    };
+  };
+};

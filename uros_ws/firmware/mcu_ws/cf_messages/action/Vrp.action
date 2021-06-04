@@ -1,0 +1,10 @@
+Waypoint[] targets
+Waypoint[] drone_pos
+int8[] drone_ids
+float32 linear_speed
+---
+string message
+int8[] drone_ids
+Trajectory[] trajectories
+---
+int8 progress

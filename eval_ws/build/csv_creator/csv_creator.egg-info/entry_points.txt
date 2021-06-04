@@ -1,0 +1,3 @@
+[console_scripts]
+latency_test = csv_creator.latency_test:main
+

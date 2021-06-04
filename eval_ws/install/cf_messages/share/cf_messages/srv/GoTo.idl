@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cf_messages/srv/GoTo.srv
+// generated code does not contain a copyright notice
+
+
+module cf_messages {
+  module srv {
+    struct GoTo_Request {
+      float x;
+
+      float y;
+
+      float z;
+
+      float yaw;
+
+      float duration;
+    };
+    struct GoTo_Response {
+      int8 ret;
+    };
+  };
+};

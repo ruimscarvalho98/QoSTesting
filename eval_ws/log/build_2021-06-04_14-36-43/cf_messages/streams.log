@@ -1,0 +1,483 @@
+[0.036s] Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages -DCMAKE_INSTALL_PREFIX=/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages
+[0.110s] -- The C compiler identification is GNU 9.3.0
+[0.174s] -- The CXX compiler identification is GNU 9.3.0
+[0.178s] -- Check for working C compiler: /usr/bin/cc
+[0.273s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.275s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.396s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.504s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.622s] -- Detecting CXX compile features
+[0.622s] -- Detecting CXX compile features - done
+[0.623s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.645s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.646s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.827s] -- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.859s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.971s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.011s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.085s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.140s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.185s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.277s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.324s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.512s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.847s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.876s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.879s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.917s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[1.918s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.918s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.918s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.949s] -- Found PythonExtra: .so  
+[2.046s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.048s] -- Added test 'lint_cmake' to check CMake code style
+[2.049s] -- Added test 'xmllint' to check XML markup files
+[2.054s] -- Configuring done
+[2.123s] -- Generating done
+[2.126s] -- Build files have been written to: /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages
+[2.138s] Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ruimsc98/tese/qos_tests/eval_ws/src/cf_messages -DCMAKE_INSTALL_PREFIX=/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages
+[2.143s] Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages -- -j12 -l12
+[2.203s] [35m[1mScanning dependencies of target cf_messages__cpp[0m
+[2.205s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.221s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.865s] [  1%] Built target cf_messages__cpp
+[2.875s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.881s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.881s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.002s] [35m[1mScanning dependencies of target cf_messages__rosidl_generator_c[0m
+[3.028s] [  8%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/msg/detail/hlc_message__functions.c.o[0m
+[3.028s] [  8%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/srv/detail/take_off__functions.c.o[0m
+[3.028s] [  8%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/msg/detail/air_quality__functions.c.o[0m
+[3.028s] [  8%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/msg/detail/ping__functions.c.o[0m
+[3.029s] [  9%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/msg/detail/waypoint__functions.c.o[0m
+[3.032s] [ 10%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/srv/detail/simple_traj__functions.c.o[0m
+[3.035s] [ 11%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/msg/detail/weather_data__functions.c.o[0m
+[3.038s] [ 12%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/srv/detail/go_to__functions.c.o[0m
+[3.042s] [ 13%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/srv/detail/land__functions.c.o[0m
+[3.091s] [ 14%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_generator_c.dir/rosidl_generator_c/cf_messages/srv/detail/stop__functions.c.o[0m
+[3.141s] [ 15%] [32m[1mLinking C shared library libcf_messages__rosidl_generator_c.so[0m
+[3.190s] [ 15%] Built target cf_messages__rosidl_generator_c
+[3.201s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.208s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.405s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_cpp[0m
+[3.433s] [ 18%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/msg/hlc_message__type_support.cpp.o[0m
+[3.434s] [ 20%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/srv/simple_traj__type_support.cpp.o[0m
+[3.435s] [ 20%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/msg/waypoint__type_support.cpp.o[0m
+[3.436s] [ 22%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/srv/land__type_support.cpp.o[0m
+[3.437s] [ 22%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/srv/take_off__type_support.cpp.o[0m
+[3.437s] [ 24%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/msg/air_quality__type_support.cpp.o[0m
+[3.437s] [ 24%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/msg/weather_data__type_support.cpp.o[0m
+[3.437s] [ 25%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/msg/ping__type_support.cpp.o[0m
+[3.879s] [ 26%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/srv/go_to__type_support.cpp.o[0m
+[3.890s] [ 27%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cf_messages/srv/stop__type_support.cpp.o[0m
+[3.927s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_c[0m
+[3.930s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_introspection_cpp[0m
+[3.941s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_fastrtps_cpp[0m
+[3.945s] [ 28%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/msg/hlc_message__type_support.cpp.o[0m
+[3.947s] [ 31%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/msg/ping__type_support.cpp.o[0m
+[3.948s] [ 31%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/msg/air_quality__type_support.cpp.o[0m
+[3.948s] [ 31%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/msg/waypoint__type_support.cpp.o[0m
+[3.949s] [ 32%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/msg/weather_data__type_support.cpp.o[0m
+[3.953s] [ 33%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/srv/simple_traj__type_support.cpp.o[0m
+[3.957s] [ 34%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/msg/detail/hlc_message__type_support.cpp.o[0m
+[3.961s] [ 35%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/srv/take_off__type_support.cpp.o[0m
+[3.994s] [ 36%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/msg/detail/dds_fastrtps/hlc_message__type_support.cpp.o[0m
+[3.999s] [ 37%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/srv/go_to__type_support.cpp.o[0m
+[3.999s] [ 37%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/srv/land__type_support.cpp.o[0m
+[4.006s] [ 38%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/cf_messages/srv/stop__type_support.cpp.o[0m
+[4.009s] [ 39%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/msg/detail/dds_fastrtps/air_quality__type_support.cpp.o[0m
+[4.013s] [ 40%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/msg/detail/air_quality__type_support.cpp.o[0m
+[4.024s] [ 41%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/msg/detail/weather_data__type_support.cpp.o[0m
+[4.030s] [ 41%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/msg/detail/dds_fastrtps/weather_data__type_support.cpp.o[0m
+[4.068s] [ 42%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/msg/detail/waypoint__type_support.cpp.o[0m
+[4.070s] [ 43%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[4.110s] [ 44%] [32m[1mLinking CXX shared library libcf_messages__rosidl_typesupport_c.so[0m
+[4.293s] [ 44%] Built target cf_messages__rosidl_typesupport_c
+[4.336s] [ 45%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/msg/detail/ping__type_support.cpp.o[0m
+[4.346s] [ 47%] [32m[1mLinking CXX shared library libcf_messages__rosidl_typesupport_cpp.so[0m
+[4.346s] [ 47%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/srv/detail/simple_traj__type_support.cpp.o[0m
+[4.428s] [ 48%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/srv/detail/take_off__type_support.cpp.o[0m
+[4.485s] [ 48%] Built target cf_messages__rosidl_typesupport_cpp
+[4.500s] [ 49%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/srv/detail/land__type_support.cpp.o[0m
+[4.506s] [ 50%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/srv/detail/go_to__type_support.cpp.o[0m
+[4.520s] [ 51%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cf_messages/srv/detail/stop__type_support.cpp.o[0m
+[4.530s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_introspection_c[0m
+[4.552s] [ 52%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/msg/detail/dds_fastrtps/ping__type_support.cpp.o[0m
+[4.598s] [ 53%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/msg/detail/hlc_message__type_support.c.o[0m
+[4.677s] [ 54%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/srv/detail/dds_fastrtps/simple_traj__type_support.cpp.o[0m
+[4.679s] [ 55%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/msg/detail/air_quality__type_support.c.o[0m
+[4.680s] [ 56%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/srv/detail/dds_fastrtps/take_off__type_support.cpp.o[0m
+[4.748s] [ 57%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/msg/detail/weather_data__type_support.c.o[0m
+[4.751s] [ 58%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/srv/detail/dds_fastrtps/land__type_support.cpp.o[0m
+[4.800s] [ 60%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/msg/detail/waypoint__type_support.c.o[0m
+[4.801s] [ 60%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/srv/detail/dds_fastrtps/go_to__type_support.cpp.o[0m
+[4.865s] [ 61%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/msg/detail/ping__type_support.c.o[0m
+[4.899s] [ 62%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cf_messages/srv/detail/dds_fastrtps/stop__type_support.cpp.o[0m
+[4.933s] [ 63%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/srv/detail/simple_traj__type_support.c.o[0m
+[4.957s] [ 64%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/srv/detail/take_off__type_support.c.o[0m
+[5.001s] [ 65%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/srv/detail/go_to__type_support.c.o[0m
+[5.013s] [ 66%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/srv/detail/stop__type_support.c.o[0m
+[5.017s] [ 67%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cf_messages/srv/detail/land__type_support.c.o[0m
+[5.031s] [ 68%] [32m[1mLinking CXX shared library libcf_messages__rosidl_typesupport_introspection_cpp.so[0m
+[5.075s] [ 69%] [32m[1mLinking C shared library libcf_messages__rosidl_typesupport_introspection_c.so[0m
+[5.129s] [ 69%] Built target cf_messages__rosidl_typesupport_introspection_c
+[5.168s] [ 69%] Built target cf_messages__rosidl_typesupport_introspection_cpp
+[5.413s] [ 70%] [32m[1mLinking CXX shared library libcf_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.527s] [ 70%] Built target cf_messages__rosidl_typesupport_fastrtps_cpp
+[5.542s] [ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.146s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_fastrtps_c[0m
+[6.174s] [ 72%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/srv/detail/simple_traj__type_support_c.cpp.o[0m
+[6.179s] [ 74%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/msg/detail/ping__type_support_c.cpp.o[0m
+[6.179s] [ 74%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/msg/detail/air_quality__type_support_c.cpp.o[0m
+[6.179s] [ 75%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/msg/detail/hlc_message__type_support_c.cpp.o[0m
+[6.181s] [ 76%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/msg/detail/weather_data__type_support_c.cpp.o[0m
+[6.181s] [ 77%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/msg/detail/waypoint__type_support_c.cpp.o[0m
+[6.181s] [ 78%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/srv/detail/stop__type_support_c.cpp.o[0m
+[6.181s] [ 79%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/srv/detail/go_to__type_support_c.cpp.o[0m
+[6.182s] [ 80%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/srv/detail/take_off__type_support_c.cpp.o[0m
+[6.184s] [ 81%] [32mBuilding CXX object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cf_messages/srv/detail/land__type_support_c.cpp.o[0m
+[6.737s] [ 82%] [32m[1mLinking CXX shared library libcf_messages__rosidl_typesupport_fastrtps_c.so[0m
+[6.859s] [ 82%] Built target cf_messages__rosidl_typesupport_fastrtps_c
+[6.875s] [35m[1mScanning dependencies of target cf_messages[0m
+[6.893s] [ 82%] Built target cf_messages
+[6.909s] [35m[1mScanning dependencies of target cf_messages__py[0m
+[6.927s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.207s] [ 83%] Built target cf_messages__py
+[8.219s] [35m[1mScanning dependencies of target cf_messages__python[0m
+[8.257s] [ 85%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/srv/_take_off_s.c.o[0m
+[8.257s] [ 85%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/msg/_waypoint_s.c.o[0m
+[8.258s] [ 87%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/msg/_air_quality_s.c.o[0m
+[8.258s] [ 87%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/msg/_hlc_message_s.c.o[0m
+[8.260s] [ 88%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/msg/_ping_s.c.o[0m
+[8.262s] [ 89%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/msg/_weather_data_s.c.o[0m
+[8.263s] [ 91%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/srv/_simple_traj_s.c.o[0m
+[8.263s] [ 91%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/srv/_land_s.c.o[0m
+[8.263s] [ 92%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/srv/_stop_s.c.o[0m
+[8.265s] [ 93%] [32mBuilding C object CMakeFiles/cf_messages__python.dir/rosidl_generator_py/cf_messages/srv/_go_to_s.c.o[0m
+[8.409s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/cf_messages/libcf_messages__python.so[0m
+[8.460s] [ 94%] Built target cf_messages__python
+[8.470s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_c__pyext[0m
+[8.476s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.480s] [35m[1mScanning dependencies of target cf_messages__rosidl_typesupport_introspection_c__pyext[0m
+[8.490s] [ 95%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cf_messages/_cf_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[8.500s] [ 96%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cf_messages/_cf_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.508s] [ 97%] [32mBuilding C object CMakeFiles/cf_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cf_messages/_cf_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.617s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/cf_messages/cf_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.630s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/cf_messages/cf_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.639s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/cf_messages/cf_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.669s] [100%] Built target cf_messages__rosidl_typesupport_c__pyext
+[8.678s] [100%] Built target cf_messages__rosidl_typesupport_introspection_c__pyext
+[8.717s] [100%] Built target cf_messages__rosidl_typesupport_fastrtps_c__pyext
+[8.732s] Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages -- -j12 -l12
+[8.944s] Invoking command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages
+[8.956s] -- Install configuration: ""
+[8.957s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/ament_index/resource_index/rosidl_interfaces/cf_messages
+[8.957s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages
+[8.957s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg
+[8.958s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/hlc_message.h
+[8.958s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/weather_data.h
+[8.958s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/waypoint.h
+[8.958s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail
+[8.959s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__functions.c
+[8.959s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__struct.h
+[8.959s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__struct.h
+[8.959s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__functions.c
+[8.959s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__functions.h
+[8.959s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__functions.h
+[8.960s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__type_support.h
+[8.960s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__type_support.h
+[8.960s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__functions.c
+[8.961s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__type_support.h
+[8.961s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__struct.h
+[8.961s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__struct.h
+[8.961s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__functions.c
+[8.961s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__struct.h
+[8.962s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__functions.c
+[8.962s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__functions.h
+[8.962s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__functions.h
+[8.962s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__type_support.h
+[8.962s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__type_support.h
+[8.962s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__functions.h
+[8.963s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/ping.h
+[8.963s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/rosidl_generator_c__visibility_control.h
+[8.963s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/air_quality.h
+[8.963s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv
+[8.963s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/simple_traj.h
+[8.964s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/land.h
+[8.964s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/go_to.h
+[8.965s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/stop.h
+[8.965s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail
+[8.965s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__struct.h
+[8.965s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__type_support.h
+[8.965s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__functions.c
+[8.966s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__functions.h
+[8.966s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__type_support.h
+[8.966s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__functions.c
+[8.966s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__functions.h
+[8.966s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__type_support.h
+[8.967s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__functions.h
+[8.967s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__type_support.h
+[8.967s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__functions.c
+[8.967s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__type_support.h
+[8.968s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__functions.h
+[8.968s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__functions.h
+[8.970s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__functions.c
+[8.970s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__struct.h
+[8.970s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__struct.h
+[8.970s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__struct.h
+[8.970s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__struct.h
+[8.970s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__functions.c
+[8.970s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/take_off.h
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/environment/library_path.sh
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/environment/library_path.dsv
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_generator_c.so
+[8.971s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_generator_c.so" to ""
+[8.971s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages
+[8.971s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg
+[8.971s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__rosidl_typesupport_fastrtps_c.h
+[8.971s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.971s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv
+[8.972s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail
+[8.972s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__rosidl_typesupport_fastrtps_c.h
+[8.972s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__rosidl_typesupport_fastrtps_c.h
+[8.972s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__rosidl_typesupport_fastrtps_c.h
+[8.972s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__rosidl_typesupport_fastrtps_c.h
+[8.972s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__rosidl_typesupport_fastrtps_c.h
+[8.972s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_fastrtps_c.so
+[8.972s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_fastrtps_c.so" to ""
+[8.972s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages
+[8.972s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg
+[8.972s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/dds_fastrtps
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.973s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv
+[8.973s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/dds_fastrtps
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__rosidl_typesupport_fastrtps_cpp.hpp
+[8.973s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_fastrtps_cpp.so
+[8.974s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.974s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages
+[8.974s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg
+[8.974s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__rosidl_typesupport_introspection_c.h
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__type_support.c
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__rosidl_typesupport_introspection_c.h
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__type_support.c
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__type_support.c
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__rosidl_typesupport_introspection_c.h
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__type_support.c
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__type_support.c
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__rosidl_typesupport_introspection_c.h
+[8.974s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.974s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv
+[8.974s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__type_support.c
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__type_support.c
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__rosidl_typesupport_introspection_c.h
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__rosidl_typesupport_introspection_c.h
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__rosidl_typesupport_introspection_c.h
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__type_support.c
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__type_support.c
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__type_support.c
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__rosidl_typesupport_introspection_c.h
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__rosidl_typesupport_introspection_c.h
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_introspection_c.so
+[8.975s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_introspection_c.so" to ""
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_c.so
+[8.975s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_c.so" to ""
+[8.975s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages
+[8.975s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg
+[8.975s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/waypoint.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/hlc_message.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/ping.hpp
+[8.976s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__struct.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__traits.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__struct.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__builder.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__builder.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__traits.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__traits.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__struct.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__struct.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__traits.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__struct.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__traits.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__builder.hpp
+[8.976s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__builder.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__builder.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/air_quality.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/weather_data.hpp
+[8.977s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/land.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/take_off.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/simple_traj.hpp
+[8.977s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__struct.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__builder.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__builder.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__struct.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__traits.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__traits.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__struct.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__builder.hpp
+[8.977s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__traits.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__struct.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__struct.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__builder.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__traits.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__traits.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__builder.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/go_to.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/stop.hpp
+[8.978s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages
+[8.978s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg
+[8.978s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__type_support.cpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__type_support.cpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__rosidl_typesupport_introspection_cpp.hpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/waypoint__type_support.cpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/hlc_message__type_support.cpp
+[8.978s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/air_quality__rosidl_typesupport_introspection_cpp.hpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/weather_data__rosidl_typesupport_introspection_cpp.hpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__type_support.cpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/msg/detail/ping__rosidl_typesupport_introspection_cpp.hpp
+[8.979s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv
+[8.979s] -- Up-to-date: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__rosidl_typesupport_introspection_cpp.hpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__rosidl_typesupport_introspection_cpp.hpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/take_off__type_support.cpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__rosidl_typesupport_introspection_cpp.hpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__rosidl_typesupport_introspection_cpp.hpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__rosidl_typesupport_introspection_cpp.hpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/go_to__type_support.cpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/stop__type_support.cpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/land__type_support.cpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/include/cf_messages/srv/detail/simple_traj__type_support.cpp
+[8.979s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_introspection_cpp.so
+[8.980s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_introspection_cpp.so" to ""
+[8.980s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_cpp.so
+[8.980s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__rosidl_typesupport_cpp.so" to ""
+[8.980s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/environment/pythonpath.sh
+[8.980s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/environment/pythonpath.dsv
+[8.980s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/__init__.py
+[9.007s] Compiling '/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/__init__.py'...
+[9.011s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg
+[9.011s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_ping_s.c
+[9.012s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_waypoint.py
+[9.012s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_air_quality_s.c
+[9.012s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_hlc_message_s.c
+[9.013s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_weather_data.py
+[9.013s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_hlc_message.py
+[9.013s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_ping.py
+[9.013s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_air_quality.py
+[9.013s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_waypoint_s.c
+[9.014s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/__init__.py
+[9.014s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/msg/_weather_data_s.c
+[9.014s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv
+[9.014s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_simple_traj.py
+[9.014s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_stop.py
+[9.014s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_go_to.py
+[9.014s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_simple_traj_s.c
+[9.015s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_stop_s.c
+[9.015s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_land.py
+[9.015s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_land_s.c
+[9.015s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_take_off_s.c
+[9.015s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_go_to_s.c
+[9.015s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/__init__.py
+[9.015s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/srv/_take_off.py
+[9.015s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/cf_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[9.016s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/cf_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.016s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/cf_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[9.017s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/cf_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.017s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/cf_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[9.018s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/python3.8/site-packages/cf_messages/cf_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.019s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__python.so
+[9.019s] -- Set runtime path of "/home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/lib/libcf_messages__python.so" to ""
+[9.019s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/HLCMessage.idl
+[9.019s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/AirQuality.idl
+[9.020s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/WeatherData.idl
+[9.020s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/Waypoint.idl
+[9.020s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/Ping.idl
+[9.020s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/SimpleTraj.idl
+[9.020s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/TakeOff.idl
+[9.021s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/Land.idl
+[9.021s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/GoTo.idl
+[9.021s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/Stop.idl
+[9.021s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/HLCMessage.msg
+[9.022s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/AirQuality.msg
+[9.022s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/WeatherData.msg
+[9.022s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/Waypoint.msg
+[9.023s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/msg/Ping.msg
+[9.023s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/SimpleTraj.srv
+[9.023s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/SimpleTraj_Request.msg
+[9.023s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/SimpleTraj_Response.msg
+[9.023s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/TakeOff.srv
+[9.023s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/TakeOff_Request.msg
+[9.024s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/TakeOff_Response.msg
+[9.024s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/Land.srv
+[9.025s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/Land_Request.msg
+[9.025s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/Land_Response.msg
+[9.025s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/GoTo.srv
+[9.025s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/GoTo_Request.msg
+[9.026s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/GoTo_Response.msg
+[9.026s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/Stop.srv
+[9.026s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/Stop_Request.msg
+[9.027s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/srv/Stop_Response.msg
+[9.027s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/ament_index/resource_index/package_run_dependencies/cf_messages
+[9.027s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/ament_index/resource_index/parent_prefix_path/cf_messages
+[9.027s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/environment/ament_prefix_path.sh
+[9.028s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/environment/ament_prefix_path.dsv
+[9.028s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/environment/path.sh
+[9.028s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/environment/path.dsv
+[9.029s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/local_setup.bash
+[9.029s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/local_setup.sh
+[9.029s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/local_setup.zsh
+[9.029s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/local_setup.dsv
+[9.030s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.dsv
+[9.030s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/ament_index/resource_index/packages/cf_messages
+[9.030s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_generator_cExport.cmake
+[9.030s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_generator_cExport-noconfig.cmake
+[9.030s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_typesupport_introspection_cExport.cmake
+[9.031s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.031s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_typesupport_cExport.cmake
+[9.031s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_typesupport_cExport-noconfig.cmake
+[9.031s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_generator_cppExport.cmake
+[9.032s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_typesupport_introspection_cppExport.cmake
+[9.032s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.032s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_typesupport_cppExport.cmake
+[9.032s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[9.033s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/rosidl_cmake-extras.cmake
+[9.033s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.033s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[9.033s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/ament_cmake_export_targets-extras.cmake
+[9.033s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.033s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.033s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.034s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messagesConfig.cmake
+[9.034s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/cmake/cf_messagesConfig-version.cmake
+[9.034s] -- Installing: /home/ruimsc98/tese/qos_tests/eval_ws/install/cf_messages/share/cf_messages/package.xml
+[9.037s] Invoked command in '/home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ruimsc98/tese/qos_tests/eval_ws/build/cf_messages
